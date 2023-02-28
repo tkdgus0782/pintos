@@ -4,12 +4,11 @@ pintos project for operating system lecture<br>
 project 0: pintos 설치<br>
 <br>
 <br>
-<a>project 1:  기본적인 시스템콜 구현하기<a><br>
+project 1:  기본적인 시스템콜 구현하기<br>
 
 1.	Argument Passing
 호출할 시스템 콜이름 매개변수(파일명이나 옵션 등) 등을 파싱하여 스택에 쌓아 저장하여, 시스템콜을 실행할 수 있게 하는 기능.<br>
 스택의 top에 해당하는 esp를 이용하여, 문자열을 파싱하여 나온 argument들을 스택에 쌓습니다.<br>
-<br>
 <br>
 2.	User Memory Access<br>
 유저가 os를 거치지 않고 메모리에 직접 접근하거나, 사용할 때에 프로세스들이나 커널과 충돌을 발생시킬 수 있습니다. 또는, null pointer나 아직 할당되지 않은 메모리에 접근하는 문제도 발생할 수 있습니다. 가상 메모리를 사용하여 이러한 문제를 완화할 수 있습니다.<br>
@@ -19,8 +18,7 @@ project 0: pintos 설치<br>
 <br>
 가상 메모리를 사용할 때의 또다른 장점은 각 프로세스가 전체 메모리를 사용하고 있는 것 처럼 동작시킬 수 있다는 점입니다.<br>
 <br>
-내부 함수인 is_user_vaddr, is_kernel_vaddr 등을 사용하면 해당 주소가 유저가 사용해도 되는 메모리인지 여부등을 확인 할 수 있습니다.<br>
-<br>
+내부 함수인 is_user_vaddr, is_kernel_vaddr 등을 사용하면 해당 주소가 유저가 사용해도 되는 메모리인지 여부등을 확인 할 수 있습니다
 <br>
 3.	System Calls<br>
 위의 가상 메모리 개념에 의해 유저와 커널의 영역이 구분되고 서로 사용할 수 없다면 유저 프로그램은 커널의 핵심 기능을 이용할
