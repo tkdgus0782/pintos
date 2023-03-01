@@ -1,12 +1,10 @@
 # pintos
 pintos project for operating system lecture<br>
 <br>
-project 0: pintos 설치<br>
 <br>
+<h3><b>project 1:  기본적인 시스템콜 구현하기<\b><\h3>
 <br>
-<h2><b>project 1:  기본적인 시스템콜 구현하기</b><h2>
-<br>
-1.	Argument Passing
+<\h1><\b>1.	Argument Passing<\h1><\b>
 호출할 시스템 콜이름 매개변수(파일명이나 옵션 등) 등을 파싱하여 스택에 쌓아 저장하여, 시스템콜을 실행할 수 있게 하는 기능.<br>
 스택의 top에 해당하는 esp를 이용하여, 문자열을 파싱하여 나온 argument들을 스택에 쌓습니다.<br>
 <br>
