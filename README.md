@@ -21,14 +21,10 @@ project 2:
 project 3:
 </a>
 <br>
-
-<br>
 <br>
 <a href = "README_proj4.md">
 project 4:
 </a>
-<br>
-
 <br>
 <br>
 <a href = "README_proj5.md">
