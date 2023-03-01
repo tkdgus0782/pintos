@@ -1,6 +1,8 @@
 # pintos
 pintos project for operating system lecture
 
+# contents
+
 prject 0: pintos 설치
 
 project 1: argument passing, system call, user memory access
