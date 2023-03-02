@@ -15,7 +15,6 @@ prject 0: pintos 설치
 project 2:
 </a>
 <br>
-
 <br>
 <a href = "README_proj3.md">
 project 3:
