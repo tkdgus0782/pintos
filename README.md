@@ -7,12 +7,12 @@ prject 0: pintos 설치
 <br>
 <br>
 <a href = "project1/README.md">
-  project 1: argument passing, system call, user memory access
+  project 1: 기본 system call 구현
 </a>
 <br>
 <br>
 <a href = "project2/README.md">
-project 2:
+project 2: file descriptor 구현
 </a>
 <br>
 <br>
