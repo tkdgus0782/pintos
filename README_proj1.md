@@ -1,8 +1,3 @@
-# pintos
-pintos project for operating system lecture<br>
-<br>
-<br>
-
 <h2><b>
 project 1:  기본적인 시스템콜 구현하기
 </b></h2>
